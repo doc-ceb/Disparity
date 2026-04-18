@@ -1,15 +1,8 @@
 # Stereo Matching Testing Notebook
 
-This document describes how to use `Stereo_Matching_Testing.ipynb` in this repository.
+This README explains how to run and interpret `Stereo_Matching_Testing.ipynb`.
 
-The notebook is part of the implementation set for your article and is designed as a companion to the stereo calibration workflow in:
-
-- https://github.com/doc-ceb/Stereo_Calibration_Guide
-
-In short:
-
-- `Stereo_Calibration_Guide` covers camera calibration and rectification.
-- `Stereo_Matching_Testing.ipynb` covers disparity estimation experiments and quantitative benchmarking on Middlebury data.
+The notebook focuses on disparity estimation experiments and quantitative benchmarking on Middlebury stereo data, with outputs designed for analysis and article reporting.
 
 ## Purpose
 
@@ -29,6 +22,10 @@ It produces per-scene visual outputs and per-year aggregated metrics that are re
 Dataset root expected by default:
 
 - `./Middlebury_Stereo_Datasets`
+
+If you want to download the curated dataset used for these experiments:
+
+- https://drive.google.com/drive/folders/1AZIg7lGAxcRKwZTInALlbEoU2VrnqQdw?usp=sharing
 
 Years used in the notebook:
 
