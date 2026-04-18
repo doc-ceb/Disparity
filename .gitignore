@@ -6,6 +6,31 @@ __pycache__/
 # C extensions
 *.so
 
+# Generated files
+article_images/
+Baseline_Test/
+Exp1_Baseline_Raw/
+Exp2_Sobel_Prefilter/
+Exp3_Sobel_Prefilter_ExtendedDisp/
+Exp4_Sobel_Prefilter_ExtendedDisp_BS_20/
+Exp4_Sobel_Prefilter_ExtendedDisp_BS_40/
+Exp5_Sobel_Prefilter_LRCheck/
+Exp5_Sobel_Prefilter_LRCheck_SmallBlock/
+Exp6_Sobel_Prefilter_Ext_LRCheck/
+imgs/
+Results_2001_Raw_Metric_Comparison/
+Results_2003_Raw_Metric_Comparison/
+Results_2005_Raw_Metric_Comparison/
+Results_2006_Raw_Metric_Comparison/
+Results_2014_Raw_Metric_Comparison/
+compute_disparity.ipynb
+
+/*.png
+/*.jpg
+/*csv
+/*.pdf
+/*.eps
+
 # Distribution / packaging
 .Python
 build/
